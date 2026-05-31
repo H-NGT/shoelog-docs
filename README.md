@@ -4,8 +4,8 @@ iOS / Android アプリ **ShoeLog**（シューログ）の公開ドキュメン
 
 公開ページ: <https://h-ngt.github.io/shoelog-docs/>
 
-- [プライバシーポリシー](./privacy.md)
-- [利用規約](./terms.md)
+- [プライバシーポリシー](./privacy.html)
+- [利用規約](./terms.html)
 - [サポート / FAQ](./support.md)
 - [オープンソースライセンス](./oss-licenses.md)
 

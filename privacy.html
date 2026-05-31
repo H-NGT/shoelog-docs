@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>プライバシーポリシー / Privacy Policy｜ShoeLog</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --border: #e4e4e8;
+    --rule: #ececef;
+    --accent: #2f6f4f;
+    --accent-fg: #ffffff;
+    --code-bg: #f2f2f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121214;
+      --fg: #ececee;
+      --muted: #9a9aa0;
+      --border: #2c2c30;
+      --rule: #26262a;
+      --accent: #4f9d77;
+      --accent-fg: #0b0b0c;
+      --code-bg: #1e1e22;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    line-height: 1.85;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 28px 20px 80px; }
+  .langbar { display: flex; gap: 8px; margin-bottom: 28px; }
+  .langbar button {
+    flex: 0 0 auto;
+    padding: 7px 18px;
+    font: inherit;
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: background .15s, color .15s, border-color .15s;
+  }
+  .langbar button[aria-pressed="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-fg);
+  }
+  h1 { font-size: 1.6rem; line-height: 1.35; margin: 0 0 6px; padding-bottom: 14px; border-bottom: 2px solid var(--rule); }
+  h2 { font-size: 1.2rem; margin: 2em 0 .5em; }
+  h3 { font-size: 1.02rem; margin: 1.4em 0 .4em; }
+  p, li, td, th { font-size: 1rem; }
+  ul { padding-left: 1.3em; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  .updated { color: var(--muted); font-size: 0.9rem; margin: 0 0 24px; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  th, td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; vertical-align: top; }
+  th { background: var(--code-bg); font-weight: 600; }
+  .back { display: inline-block; margin-top: 48px; font-size: 0.95rem; }
+  [data-lang="ja"] .en { display: none; }
+  [data-lang="en"] .ja { display: none; }
+</style>
+</head>
+<body data-lang="ja">
+<div class="wrap">
+  <div class="langbar" role="group" aria-label="Language / 言語">
+    <button type="button" data-set="ja" aria-pressed="true">日本語</button>
+    <button type="button" data-set="en" aria-pressed="false">English</button>
+  </div>
+
+  <!-- 日本語 -->
+  <section class="ja">
+    <h1>プライバシーポリシー</h1>
+    <p class="updated">最終更新日: 2026年5月26日</p>
+
+    <p>pista-run-dev（以下「開発者」といいます）は、モバイルアプリケーション「ShoeLog」（以下「本アプリ」といいます）におけるユーザーの個人情報の取り扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます）を定めます。</p>
+
+    <h2>1. 開発者の情報</h2>
+    <ul>
+      <li>提供者: pista-run-dev（個人開発者）</li>
+      <li>連絡先: pista.run.dev@gmail.com</li>
+    </ul>
+
+    <h2>2. 本アプリが扱うデータ</h2>
+    <p>本アプリは、ユーザーがランニングシューズに関する情報を端末上で記録・管理するためのアプリです。本アプリで扱うデータは以下のとおりです。</p>
+
+    <h3>2.1 ユーザーが入力するデータ</h3>
+    <ul>
+      <li>シューズに関する情報（モデル名、ブランド、購入日、購入価格、初期距離、交換目安距離、メモ等）</li>
+      <li>ランの記録（日付、距離、シューズへの紐付け）</li>
+      <li>シューズの写真</li>
+      <li>表示テーマ・カラーパレット等の設定</li>
+    </ul>
+
+    <h3>2.2 端末上でのみ保存されるデータ</h3>
+    <p>上記 2.1 のデータは、ユーザーの端末内のローカルストレージ（SQLite データベースおよび端末内ファイルシステム）にのみ保存されます。開発者は、これらのデータを取得したり、開発者のサーバーへ送信したりすることはありません。</p>
+
+    <h3>2.3 iCloud による同期（iOS のみ・任意）</h3>
+    <p>iOS 版において、ユーザーが iCloud 同期機能を有効にしている場合、本アプリは Apple が提供する iCloud Documents 上の本アプリ専用領域に、データベース・画像等のファイルを保存します。iCloud 上のデータは、同一の Apple ID で本アプリを利用している端末間でのみ同期されます。</p>
+    <ul>
+      <li>iCloud 上のデータは Apple のサーバーに保存され、Apple のプライバシーポリシー（<a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a>）の適用を受けます。</li>
+      <li>開発者は iCloud 上のデータにアクセスできず、Apple から開発者へ提供されることもありません。</li>
+    </ul>
+
+    <h2>3. 個人情報の取得・送信について</h2>
+    <p>本アプリは、以下のいずれも行いません。</p>
+    <ul>
+      <li>ユーザーの氏名、メールアドレス、電話番号、住所その他の個人情報の取得</li>
+      <li>位置情報、連絡先、ヘルスケアデータの取得（本ポリシー更新日時点）</li>
+      <li>解析・トラッキング目的でのデータ送信（Google Analytics、Firebase Analytics、Sentry 等の SDK は組み込んでいません）</li>
+      <li>第三者広告ネットワークによる広告 ID 等の利用</li>
+      <li>ユーザーアカウントの作成・サーバー認証</li>
+    </ul>
+
+    <h2>4. 権限の利用目的</h2>
+    <p>本アプリは、iOS において以下のシステム権限の許可を求める場合があります。</p>
+    <table>
+      <thead><tr><th>権限</th><th>利用目的</th></tr></thead>
+      <tbody>
+        <tr><td>写真ライブラリ（読み取り）</td><td>シューズの写真として既存の画像を選択するため</td></tr>
+        <tr><td>写真ライブラリ（保存）</td><td>アプリ内で編集した画像をカメラロールへ保存するため</td></tr>
+        <tr><td>カメラ</td><td>シューズの写真を撮影するため</td></tr>
+      </tbody>
+    </table>
+    <p>これらの権限により取得した画像は、本アプリの端末内ストレージ（および 2.3 の条件下で iCloud）にのみ保存され、外部送信はされません。</p>
+
+    <h2>5. クッキー・トラッキング技術</h2>
+    <p>本アプリはクッキー、IDFA（広告識別子）その他のトラッキング技術を利用しません。App Tracking Transparency に基づくトラッキング許可は要求しません。</p>
+
+    <h2>6. 子どもについて</h2>
+    <p>本アプリは年齢を問わず利用可能ですが、特に子ども向けに設計されたものではありません。本アプリは個人情報を収集しないため、子どもからの個人情報を取得することもありません。</p>
+
+    <h2>7. データの削除</h2>
+    <p>本アプリ内のデータを削除する方法は以下のとおりです。</p>
+    <ul>
+      <li>アプリ内のシューズ削除・ラン削除機能による個別削除</li>
+      <li>本アプリをアンインストールすることによる、端末内ローカルデータの一括削除</li>
+      <li>iCloud 同期を利用していた場合は、iOS 端末の「設定 &gt; Apple ID &gt; iCloud &gt; ストレージを管理 &gt; ShoeLog」から iCloud 上のデータを削除可能</li>
+    </ul>
+
+    <h2>8. 第三者サービス</h2>
+    <p>本アプリ自体は外部の解析・広告サービスを利用していませんが、以下の Apple 提供サービスを利用する場合があります。</p>
+    <ul>
+      <li>Apple iCloud（任意のデータ同期）</li>
+      <li>App Store によるアプリ配信・更新</li>
+    </ul>
+    <p>これらの利用については Apple のプライバシーポリシーが適用されます。</p>
+
+    <h2>9. 本ポリシーの変更</h2>
+    <p>法令の変更や本アプリの機能追加等により、本ポリシーを改定することがあります。重要な変更がある場合は、本ページの「最終更新日」を更新し、本アプリのアップデートのリリースノート等で告知します。</p>
+
+    <h2>10. お問い合わせ</h2>
+    <p>本ポリシーまたは本アプリのプライバシーに関するお問い合わせは、以下までご連絡ください。</p>
+    <ul>
+      <li>メール: pista.run.dev@gmail.com</li>
+    </ul>
+
+    <p class="back"><a href="./index.html">← ドキュメント一覧へ戻る</a></p>
+  </section>
+
+  <!-- English -->
+  <section class="en">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: May 26, 2026</p>
+
+    <p>pista-run-dev (hereinafter "the Developer") sets forth this Privacy Policy (hereinafter "this Policy") regarding the handling of users' personal information in the mobile application "ShoeLog" (hereinafter "the App").</p>
+
+    <h2>1. Developer Information</h2>
+    <ul>
+      <li>Provider: pista-run-dev (individual developer)</li>
+      <li>Contact: pista.run.dev@gmail.com</li>
+    </ul>
+
+    <h2>2. Data Handled by the App</h2>
+    <p>The App is an application for users to record and manage information about their running shoes on their device.</p>
+
+    <h3>2.1 Data Entered by the User</h3>
+    <ul>
+      <li>Shoe information (model name, brand, purchase date, purchase price, initial distance, replacement-target distance, notes, etc.)</li>
+      <li>Run records (date, distance, association with a shoe)</li>
+      <li>Photos of shoes</li>
+      <li>Theme / color palette settings</li>
+    </ul>
+
+    <h3>2.2 Data Stored Only on the Device</h3>
+    <p>The data in 2.1 is stored only in local storage on the user's device (SQLite database and the device's file system). The Developer does not obtain this data or transmit it to any developer-operated server.</p>
+
+    <h3>2.3 iCloud Sync (iOS only, optional)</h3>
+    <p>On iOS, when the user enables iCloud sync, the App stores the database, image files, and similar resources in the App's private area in iCloud Documents provided by Apple. Data in iCloud is synced only between devices using the same Apple ID.</p>
+    <ul>
+      <li>Data stored in iCloud is held on Apple's servers and subject to Apple's privacy policy (<a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a>).</li>
+      <li>The Developer cannot access data stored in iCloud, and Apple does not provide such data to the Developer.</li>
+    </ul>
+
+    <h2>3. Collection and Transmission of Personal Information</h2>
+    <p>The App does NOT do any of the following:</p>
+    <ul>
+      <li>Collect personal information such as name, email address, phone number, address</li>
+      <li>Collect location data, contacts, or health data (as of the date of this Policy)</li>
+      <li>Send data for analytics or tracking purposes (no Google Analytics, Firebase Analytics, Sentry, or similar SDKs are integrated)</li>
+      <li>Use advertising IDs through third-party ad networks</li>
+      <li>Create user accounts or perform server-side authentication</li>
+    </ul>
+
+    <h2>4. Use of System Permissions</h2>
+    <p>The App may request the following system permissions on iOS:</p>
+    <table>
+      <thead><tr><th>Permission</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Photo Library (read)</td><td>To pick existing photos as shoe images</td></tr>
+        <tr><td>Photo Library (write)</td><td>To save edited images to the camera roll</td></tr>
+        <tr><td>Camera</td><td>To capture photos of shoes</td></tr>
+      </tbody>
+    </table>
+    <p>Images obtained through these permissions are stored only in the App's local storage (and in iCloud under the conditions in 2.3); they are not transmitted externally.</p>
+
+    <h2>5. Cookies and Tracking Technologies</h2>
+    <p>The App does not use cookies, IDFA, or other tracking technologies. The App does not request App Tracking Transparency permission.</p>
+
+    <h2>6. Children</h2>
+    <p>The App is usable regardless of age but is not specifically designed for children. Because the App does not collect personal information, no personal information from children is obtained.</p>
+
+    <h2>7. Data Deletion</h2>
+    <p>You may delete data in the App as follows:</p>
+    <ul>
+      <li>Delete individual shoes / run records via in-app deletion features</li>
+      <li>Uninstall the App to bulk-delete all device-local data</li>
+      <li>If iCloud sync was enabled, you can also delete iCloud-side data via "Settings &gt; Apple ID &gt; iCloud &gt; Manage Storage &gt; ShoeLog" on your iOS device</li>
+    </ul>
+
+    <h2>8. Third-Party Services</h2>
+    <p>The App itself does not use external analytics or advertising services. However, the following Apple-provided services may be used:</p>
+    <ul>
+      <li>Apple iCloud (optional data sync)</li>
+      <li>App Store (app distribution and updates)</li>
+    </ul>
+    <p>Use of these services is governed by Apple's privacy policy.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>This Policy may be revised due to changes in law or to the App's features. When a material change occurs, the "Last updated" date on this page will be revised and the change will be noted in release notes or similar communications.</p>
+
+    <h2>10. Contact</h2>
+    <p>For questions about this Policy or the App's privacy practices, please contact:</p>
+    <ul>
+      <li>Email: pista.run.dev@gmail.com</li>
+    </ul>
+
+    <p class="back"><a href="./index.html">← Back to documents</a></p>
+  </section>
+</div>
+
+<script>
+  (function () {
+    var body = document.body;
+    var buttons = document.querySelectorAll('.langbar button');
+    function apply(lang) {
+      body.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', lang);
+      buttons.forEach(function (b) {
+        b.setAttribute('aria-pressed', b.getAttribute('data-set') === lang ? 'true' : 'false');
+      });
+      try { localStorage.setItem('shoelog-doc-lang', lang); } catch (e) {}
+    }
+    var saved = null;
+    try { saved = localStorage.getItem('shoelog-doc-lang'); } catch (e) {}
+    var initial = saved || ((navigator.language || 'ja').toLowerCase().indexOf('ja') === 0 ? 'ja' : 'en');
+    apply(initial);
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { apply(b.getAttribute('data-set')); });
+    });
+  })();
+</script>
+</body>
+</html>
